@@ -1,0 +1,21 @@
+1. EC2 Instances
+wordfreq-dev
+
+2. S3 Buckets
+ra-wordfreq-nov25-processing
+arn:aws:s3:::ra-wordfreq-nov25-processing
+
+ra-wordfreq-nov25-uploading
+arn:aws:s3:::ra-wordfreq-nov25-uploading
+lsde-wordfreq-app.zip
+s3://ra-wordfreq-nov25-uploading/lsde-wordfreq-app.zip
+
+3. SQS Queues
+wordfreq-jobs
+https://sqs.us-east-1.amazonaws.com/798430981715/wordfreq-jobs
+
+wordfreq-results
+https://sqs.us-east-1.amazonaws.com/798430981715/wordfreq-results
+
+4. DynamoDB
+wordfreq
